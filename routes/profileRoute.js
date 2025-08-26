@@ -1,8 +1,10 @@
+require('dotenv').config(); 
+
+
 const express = require('express');
 
 const User=require("../models/user.js");
-
-require('dotenv').config(); 
+ 
 const { auth} = require('../middleware.js');
 
 

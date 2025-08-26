@@ -1,8 +1,11 @@
+require('dotenv').config(); 
+
+
+
 const express = require('express');
 const mongoose=require('mongoose');
 const cors = require('cors');
 
-require('dotenv').config(); 
 
 const app = express();
 const PORT = 3000;
@@ -21,7 +24,8 @@ const adminRouter = require('./routes/adminRoute.js');
 const profileRouter = require('./routes/profileRoute.js');
 
 
-const dbUrl=process.env.ATLAS_URL;
+const dbUrl=process.env.ATLAS;
+
 async function main(){
 await mongoose.connect(dbUrl);
 

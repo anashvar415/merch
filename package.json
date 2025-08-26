@@ -18,14 +18,20 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    
-"start"  :"node server.js",
-
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anashvar415/merch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anashvar415/merch/issues"
+  },
+  "homepage": "https://github.com/anashvar415/merch#readme"
 }

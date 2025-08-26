@@ -1,9 +1,11 @@
+require('dotenv').config(); 
+
+
 const express = require('express');
 
 const Wishlist=require("../models/wishlist.js");
 const Product=require("../models/product.js");
-
-require('dotenv').config(); 
+ 
 const { auth} = require('../middleware.js');
 
 

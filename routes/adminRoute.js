@@ -1,9 +1,10 @@
+require('dotenv').config(); 
+
 const express = require('express');
 const Order=require("../models/orders.js");
 
 const User=require("../models/user.js");
 
-require('dotenv').config(); 
 const { auth,adminAuth} = require('../middleware.js');
 
 
